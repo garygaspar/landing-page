@@ -8,7 +8,7 @@ html,body {
     --lightblue: #3882F6;
     --darkblue: #1f2937;
     --white: #F9FAF8;
-    --grey: #d1d1d4;
+    --grey: #E5E7EB;
   }
 
 .bg-main {
@@ -23,6 +23,11 @@ html,body {
     color: var(--grey);
 }
 
+.f-dark {
+    color: var(--darkblue
+    );
+}
+
 .link {
     text-decoration: none;
 }
@@ -34,6 +39,17 @@ html,body {
 .pb {
     padding-bottom: 20px;
 }
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: 600;
+}
+
 
 /* ------ */
 
@@ -79,10 +95,8 @@ html,body {
     /* padding: 20px; */
 }
 
-.hero-text > h1 {
-    font-size: 48px;
-    font-weight: 600;
-    flex-basis: 350px;
+.hero-text {
+    flex-basis: 450px;
 }
 
 .btn-blue {
@@ -90,3 +104,25 @@ html,body {
     border-radius: 5px;
 }
 
+.box {
+    border: #1f2937;
+    border-radius: 2px;
+    padding: 20px;
+    border-style: solid;
+}
+
+.family {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.photos {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.photo {
+    /* flex: 1; */
+}
