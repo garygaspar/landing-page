@@ -29,10 +29,6 @@ html,body, p, h1, h2 {
     align-items: center;
 }
 
-.white-section {
-    /* padding-top: 50px; */
-}
-
 .quote-section {
     background: var(--grey);
     padding-top: 120px;
