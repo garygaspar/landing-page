@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +14,7 @@
     <title>Odin Landing Page</title>
 </head>
 <body>
-    <div class="section bg-main">
+    <div class="section main-section">
         <div class="wrapper">
             <div class="nav flex">
                 <div class="logo">
@@ -24,15 +25,15 @@
                         <li><a class="f-grey link f-sm" href="#">Features</a></li>
                         <li><a class="f-grey link f-sm" href="#">Pricing</a></li>
                         <li><a class="f-grey link f-sm" href="#">Blog</a></li>
-                        <li class="signup"><a class="f-grey link f-sm" href="#">Sign Up</a></li>
+                        <li class="signup"><a class="f-grey link f-sm" href="#">Join Newsletter</a></li>
                     </ul>
                 </div>
             </div>
             <div class="hero flex">
                 <div class="hero-text">
-                    <h1 class="f-white">This kid is awesome</h1>
-                    <p class="f-grey f-sm pb">Born in a tiny town in Belgium (🇧🇪) this kid has quickly developed emotional intelligence. However, he is pretty slow to move around like his father.</p>
-                    <a href="#" class="link f-white signup btn-blue">Sign up</a>
+                    <h1 class="f-white pb-m">This kid is awesome</h1>
+                    <p class="f-grey f-sm pb-m">Born in a tiny town in Belgium (🇧🇪) this kid has quickly developed emotional intelligence. However, he is pretty slow to move around like his father.</p>
+                    <a href="#" class="link f-white signup btn-blue">Join Newsletter</a>
                 </div>
                 <div class="hero-image">
                     <img src="./assets/james.png" alt="" height="250px">
@@ -41,30 +42,67 @@
             </div>
         </div>
     </div>
-    <div class="section">
+    <div class="section white-section">
         <div class="wrapper">
             <div class="family">
-                <h2>The most important people</h2>
+                <h2 class="section-title">The most important people in my life are</h2>
                 <div class="photos">
                     <div class="photo">
-                        <div class="box"></div>
-                        <p class="f-dark f-sm">Barbara Acunzo</p>
-                        <p class="f-dark f-sm">(Maman)</p>
+                        <div>
+                            <img class="box" src="./assets/barbara.JPG" alt="" width="200px">
+                        </div>
+                        <p class="f-dark f-m p-s">Barbara Acunzo</p>
+                        <p class="f-dark f-sm italic">(Mummy)</p>
                     </div>
                     <div class="photo">
-                        <div class="box"></div>
-                        <p class="f-dark f-sm">Gary Gaspar</p>
-                        <p class="f-dark f-sm">(Papa)</p>
+                        <div>
+                            <img class="box" src="./assets/gary.JPG" alt="" width="200px">
+                        </div>
+                        <p class="f-dark f-m p-s">Gary Gaspar</p>
+                        <p class="f-dark f-sm italic">(Daddy)</p>
                     </div>
                     <div class="photo">
-                        <div class="box"></div>
-                        <p class="f-dark f-sm">Gaston</p>
-                        <p class="f-dark f-sm">(Frère)</p>
+                        <div>
+                            <img class="box" src="./assets/gaston.JPG" alt="" width="200px">
+                        </div>
+                        <p class="f-dark f-m p-s">Gaston</p>
+                        <p class="f-dark f-sm italic">(Brother)</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="section quote-section">
+        <div class="wrapper-tight">
+            <div>
+                <h2 class="quote">The first time I met my family, I couldn't believe how nice everyone was around here. My mom is like super hot, my dad is so muscular and Gaston keeps me safe at night. I love them.</h2>
+            </div>
+            <div class="quote-signature">
+                <p>-James Gaspar, 2022</p>
+            </div>
+        </div>
+    </div>
+    <div class="section white-section">
+        <div class="wrapper">
+            <div class="banner">
+                <div class="banner-content">
+                    <div>
+                        <p class="f-white f-m f-bold">Receive my weekly newsletter</p>
+                        <p class="f-grey f-sm">Signup for my newsletter to learn all about my family!</p>
+                    </div>
+                    <div>
+                        <a href="#" class="link f-white signup btn-white">Join Newsletter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <p class="f-white f-sm">Copyright © James Gaspar 2023</p>
+        </div>
+    </div>
     
+    <script src="./scripts/script.js"></script>
 </body>
 </html>
